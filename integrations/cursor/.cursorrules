@@ -1,0 +1,22 @@
+# Rendshot — Image Generation Skills
+
+When the user asks to generate images, create social media graphics, take screenshots, or work with visual content, use the Rendshot API or MCP tools.
+
+## Available Tools (MCP)
+- `generate_image` — Render HTML, fill templates, or AI-generate from prompt
+- `screenshot_url` — Capture webpages
+- `list_templates` / `get_template` — Browse and inspect templates
+- `create_template` — Save designs for reuse
+
+## Quick Start
+```
+generate_image({ prompt: "...", platform: "instagram_post" })
+```
+
+## Platform Presets
+xiaohongshu (1080x1440), instagram_post (1080x1080), instagram_story (1080x1920), twitter_card (1200x628), linkedin_post (1200x627), youtube_thumb (1280x720), og_image (1200x630)
+
+## For detailed guides, see:
+- skills/rendshot/ — Tool usage reference
+- skills/xiaohongshu/ — Xiaohongshu algorithm + design guide
+- skills/instagram/ — Instagram algorithm + design guide

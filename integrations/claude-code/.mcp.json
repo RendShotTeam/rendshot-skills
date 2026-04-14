@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rendshot": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@rendshot/mcp"],
+      "env": {
+        "RENDSHOT_API_KEY": "${RENDSHOT_API_KEY}"
+      },
+      "note": "Rendshot MCP server — image generation, screenshots, and template management. Set RENDSHOT_API_KEY env var. Get your key at https://rendshot.com/dashboard/keys"
+    }
+  }
+}

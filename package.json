@@ -1,0 +1,22 @@
+{
+  "name": "rendshot-skills",
+  "version": "0.1.0",
+  "description": "AI agent skills for Rendshot — image generation, screenshots, and social media content creation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RendShotTeam/rendshot-skills"
+  },
+  "keywords": [
+    "rendshot",
+    "ai-skills",
+    "image-generation",
+    "screenshot",
+    "xiaohongshu",
+    "instagram",
+    "social-media",
+    "mcp",
+    "claude-code",
+    "ai-agent"
+  ]
+}
