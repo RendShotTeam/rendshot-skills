@@ -86,19 +86,24 @@ AI: [Applies carousel best practices → designs consistent slides]
 | `screenshot_url` | Take webpage screenshots |
 | `list_templates` | Browse community templates by platform and category |
 | `get_template` | Get template variable schema |
-| `create_template` | Save a design as reusable template |
+| `create_template` | Save a design as reusable template (private draft) |
 
 ## Platform Presets
 
 | Platform | Size | Use |
 |----------|------|-----|
 | `xiaohongshu` | 1080x1440 | Notes, product cards |
+| `xiaohongshu_wide` | 1080x810 | Wide format notes |
 | `instagram_post` | 1080x1080 | Feed posts |
 | `instagram_story` | 1080x1920 | Stories, reels covers |
 | `twitter_card` | 1200x628 | Link preview cards |
+| `twitter_post` | 1200x675 | Image posts |
 | `linkedin_post` | 1200x627 | Professional posts |
 | `youtube_thumb` | 1280x720 | Video thumbnails |
+| `wechat_cover` | 900x383 | Article covers |
+| `wechat_thumb` | 200x200 | Article thumbnails |
 | `og_image` | 1200x630 | Open Graph images |
+| `custom` | 1080x1080 | Any custom size |
 
 ## Contributing
 

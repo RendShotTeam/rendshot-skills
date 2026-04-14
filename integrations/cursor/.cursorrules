@@ -10,11 +10,15 @@ When the user asks to generate images, create social media graphics, take screen
 
 ## Quick Start
 ```
-generate_image({ prompt: "...", platform: "instagram_post" })
+# AI prompt mode (most powerful — generates design from natural language)
+generate_image({ prompt: "Coffee shop promo card, warm tones", platform: "instagram_post" })
+
+# Template mode (deterministic — fill variables in a saved template)
+generate_image({ template_id: "tpl_xxx", variables: { title: "Hello" } })
 ```
 
 ## Platform Presets
-xiaohongshu (1080x1440), instagram_post (1080x1080), instagram_story (1080x1920), twitter_card (1200x628), linkedin_post (1200x627), youtube_thumb (1280x720), og_image (1200x630)
+xiaohongshu (1080x1440), xiaohongshu_wide (1080x810), instagram_post (1080x1080), instagram_story (1080x1920), twitter_card (1200x628), twitter_post (1200x675), linkedin_post (1200x627), youtube_thumb (1280x720), wechat_cover (900x383), wechat_thumb (200x200), og_image (1200x630), custom (1080x1080)
 
 ## For detailed guides, see:
 - skills/rendshot/ — Tool usage reference

@@ -1,5 +1,6 @@
 {
   "name": "rendshot-skills",
+  "private": true,
   "version": "0.1.0",
   "description": "AI agent skills for Rendshot — image generation, screenshots, and social media content creation",
   "license": "MIT",

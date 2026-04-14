@@ -27,7 +27,7 @@ Render HTML/CSS, a template, or AI-generated design to image.
 | `fonts` | string[] | — | Custom fonts to load |
 | `timeout` | number | 10000 | Render timeout (ms) |
 
-**Returns**: `{ url, width, height, format, size }` — AI mode also returns `{ html, variables }`.
+**Returns**: `{ imageId, url, width, height, format, size, createdAt }` — AI mode also returns `{ html, variables }`.
 
 ---
 
@@ -46,7 +46,7 @@ Capture a webpage as image.
 | `deviceScale` | 1\|2\|3 | 1 | Scale factor |
 | `timeout` | number | 10000 | Timeout (ms) |
 
-**Returns**: `{ url, width, height, format, size }`
+**Returns**: `{ imageId, url, width, height, format, size, createdAt }`
 
 ---
 
@@ -74,7 +74,7 @@ Get full template details including variable schema.
 |-----------|------|-------------|
 | `template_id` | string | Template ID (required) |
 
-**Returns**: `{ id, name, description, platform, width, height, tags, author, variables }`.
+**Returns**: `{ id, name, description, platform, category, width, height, tags, author, thumbnailUrl, variables, createdAt, publishedAt }`.
 
 Each variable: `{ key, type, label, default, required, maxLength, min, max, options }`.
 

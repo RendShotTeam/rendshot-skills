@@ -118,6 +118,7 @@ create_template({
 | `linkedin_post` | 1200x627 | Professional posts |
 | `youtube_thumb` | 1280x720 | Video thumbnails |
 | `wechat_cover` | 900x383 | Article covers |
+| `wechat_thumb` | 200x200 | Article thumbnails |
 | `og_image` | 1200x630 | Open Graph images |
 | `custom` | 1080x1080 | Any custom size |
 

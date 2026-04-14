@@ -39,7 +39,7 @@ Choose based on note type:
 - Works for: before/after, budget alternatives, comparisons
 
 ### Urgency Formula (紧迫型) — FOMO
-- "2024年还不知道这个就晚了" / "即将下架，赶紧囤"
+- "现在还不知道这个就晚了" / "即将下架，赶紧囤"
 - Works for: trend alerts, limited offers
 
 ### Confession Formula (真诚型) — builds trust

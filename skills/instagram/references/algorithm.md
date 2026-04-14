@@ -1,6 +1,6 @@
 # Instagram Algorithm & Content Strategy
 
-## Ranking Signals (2024-2025)
+## Ranking Signals
 
 Instagram uses separate ranking systems per surface:
 

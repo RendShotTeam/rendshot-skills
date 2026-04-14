@@ -94,7 +94,7 @@ create_template({
 |--------|----------------|------|----------|
 | Feed post | `instagram_post` | 1080x1080 | Main feed content |
 | Story | `instagram_story` | 1080x1920 | Stories, reels covers |
-| Landscape | `twitter_post` | 1200x675 | IGTV covers, link previews |
+| Landscape | `twitter_post` | 1200x675 | IGTV covers, link previews (no IG-specific landscape preset; this cross-platform size works) |
 
 ## Carousel Best Practices
 
