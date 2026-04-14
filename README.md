@@ -11,6 +11,11 @@ These skills teach AI agents how to use Rendshot effectively, with platform-spec
 | **rendshot** | Core tool usage — MCP, API, CLI, SDK reference |
 | **xiaohongshu** | Xiaohongshu (小红书) content strategy, algorithm insights, and visual design guide |
 | **instagram** | Instagram content strategy, algorithm insights, and visual design guide |
+| **twitter** | Twitter/X post images, thread headers, and link cards |
+| **linkedin** | LinkedIn professional posts, carousel slides, and company graphics |
+| **youtube** | YouTube thumbnail CTR optimization and visual design |
+| **wechat** | WeChat Official Account (微信公众号) article covers and thumbnails |
+| **og-image** | Open Graph images for social sharing previews |
 
 ## Setup
 
