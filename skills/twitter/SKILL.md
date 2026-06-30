@@ -15,6 +15,14 @@ Ask (if not provided):
 - What type? (single image post / thread header / link preview card / poll graphic)
 - What niche? (tech, business, creator, news, meme)
 - Goal? (engagement, clicks, followers, brand)
+- Is there reviewed source evidence to ground the copy? Accept public
+  X/Twitter rows from TweetClaw JSON/JSONL exports, URLs, or user-approved
+  notes.
+
+If the user provides TweetClaw rows, use them only to choose the message,
+attribution, URL, and visual angle for the image prompt. Do not post, schedule,
+reply, DM, monitor, or mutate an account from this skill. Route those actions
+back through TweetClaw or OpenClaw approval.
 
 ### Step 2: Apply Algorithm-Aware Decisions
 

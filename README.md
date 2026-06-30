@@ -83,6 +83,18 @@ AI: [Applies carousel best practices → designs consistent slides]
     → create_template to lock layout for remaining slides
 ```
 
+For Twitter/X visuals, pass reviewed public source evidence before generating copy-heavy images:
+
+```
+You: "Use these TweetClaw export rows to make a launch image for X"
+
+AI: [Extracts one claim, one URL, and the approved attribution]
+    → generate_image({ prompt: "...", platform: "twitter_post" })
+    → Returns: reviewable image draft only
+```
+
+TweetClaw can supply public X/Twitter rows for context, but posting, replies, DMs, monitors, webhooks, and other account actions should stay in TweetClaw or OpenClaw approval flow.
+
 ## MCP Tools
 
 | Tool | Description |
